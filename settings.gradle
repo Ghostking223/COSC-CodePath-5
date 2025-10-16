@@ -1,0 +1,18 @@
+pluginManagement {repositories {
+    // The Gradle Plugin Portal is the main repository for Gradle plugins
+    gradlePluginPortal()
+    // Google's Maven repository
+    google()
+    mavenCentral()
+}
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Drive TYPE SEED"
+include ':app'
